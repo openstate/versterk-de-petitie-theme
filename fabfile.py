@@ -4,11 +4,12 @@ env.use_ssh_config = True
 env.hosts = ["Oxygen"]
 
 # Container used to compile the assets
-NODE_CONTAINER = 'c-nodejs-accountability-hack'
+GIT_REPO_NAME = 'hack-de-valse-start-theme'
+NODE_CONTAINER = 'c-nodejs-hack-de-valse-start'
 
 def deploy():
-    with cd('/home/projects/wordpress/www/wp-mu/wp-content/themes/accountability-hack-theme'):
-        sudo('git pull git@github.com:openstate/accountabilityhack-theme.git')
+    with cd('/home/projects/wordpress/www/wp-mu/wp-content/themes/%s' % (GIT_REPO_NAME)):
+        sudo('git pull git@github.com:openstate/%s.git' % (GIT_REPO_NAME))
         output = sudo('docker inspect --format="{{.State.Status}}" %s' % (NODE_CONTAINER))
         if output != 'running':
             exit('\n*** ERROR: The %s container, used to compile the assets, is not running. Please build/run/start the container.' % (NODE_CONTAINER))
