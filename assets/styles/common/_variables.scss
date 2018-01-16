@@ -1,0 +1,55 @@
+// Used to switch nav to hamburger at md instead of sm
+$grid-float-breakpoint: 1200px;
+
+// Glyphicons font path
+$icon-font-path:        "../fonts/";
+
+// Grid settings
+$main-sm-columns:       12;
+$sidebar-sm-columns:    4;
+
+//== Colors
+//
+//## brand colors for use across the website.
+$light-blue:        rgb(200, 255, 255) !default;
+$blue:              rgb(0, 0, 255) !default;
+
+$white:             rgb(255, 255, 255) !default;
+$grey:              rgb(242, 242, 242) !default;
+$black:             rgb(0, 0, 0) !default;
+
+$text-color:        $black;
+
+// Lines
+$border:            2px dotted $black;
+$border-white:      2px dotted $white;
+$border-light-blue: 2px dotted $light-blue;
+
+// We need to see how we will deal with the default colors 
+
+$brand-primary:         #428bca !default;
+$brand-success:         #5cb85c !default;
+$brand-info:            #5bc0de !default;
+$brand-warning:         #f0ad4e !default;
+$brand-danger:          #d9534f !default;
+
+//== Typography
+//
+//## Font, line-height, and color for body text, headings, and more.
+
+$font-family-sans-serif:  'Roboto', sans-serif !default;
+$font-family-serif:       'Roboto Mono', monospace !default;
+//** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
+$font-family-monospace:   monospace !default;
+$font-family-base:        $font-family-sans-serif !default;
+
+//$font-size-base:          14px !default;
+//$font-size-large:         ceil(($font-size-base * 1.25)) !default; // ~18px
+//$font-size-small:         ceil(($font-size-base * 0.85)) !default; // ~12px
+
+//$font-size-h1:            floor(($font-size-base * 2.6)) !default; // ~36px
+//$font-size-h2:            floor(($font-size-base * 2.15)) !default; // ~30px
+//$font-size-h3:            ceil(($font-size-base * 1.7)) !default; // ~24px
+//$font-size-h4:            ceil(($font-size-base * 1.25)) !default; // ~18px
+//$font-size-h5:            $font-size-base !default;
+//$font-size-h6:            ceil(($font-size-base * 0.85)) !default; // ~12px

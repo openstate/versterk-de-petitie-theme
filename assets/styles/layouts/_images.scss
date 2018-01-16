@@ -1,0 +1,22 @@
+.page .image-overlay, .post .image-overlay {
+  margin-left: 25px;
+}
+
+.image-overlay::after {
+  color: transparent;
+  content: " images ";
+  background: url("../images/image-overlay.svg");
+  display: block;
+  opacity: 0.8;
+  filter: alpha(opacity=80); /* For IE8 and earlier */
+  width: 100%;
+  height: 90px;
+  z-index: 4;
+  position: relative;
+  top: -45px;
+  left: -35px;
+
+  img {
+    width: 100%;
+  }
+}
