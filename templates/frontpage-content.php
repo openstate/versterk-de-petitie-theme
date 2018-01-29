@@ -12,7 +12,7 @@
   <div class="row">
     <br>
     <div class="col-lg-5 col-lg-offset-1">
-      <h1>Accountability Hack</h1>
+      <h1>Hack de Valse Start</h1>
       <p class="frontpage-content-text">
         Welkom bij de tweede editie van Accountability Hack. De hackathon waar met open data de prestaties van de overheid in kaart worden gebracht. Maak gebruik van open data, help de democratie en maak de winnende app die de overheid op innoverende wijze controleert.
       </p>
