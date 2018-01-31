@@ -8,19 +8,25 @@
         <a href="https://youngcreators.co/" target="_blank"><img class="right-footer-image" src="<?= get_template_directory_uri() . '/dist/images/logo_young_creators.svg'; ?>" alt="Young Creators logo"></a>
       </div>
       <br>
-      <img class="hdvs-logo float-left" src="<?= get_template_directory_uri() . '/dist/images/Logo_wit_kort-01.svg'; ?>" alt="Hack de Valse Start logo wit">
-      <div>
-        <ul class="list-inline left-footer-list-padding">
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <li><a class="social left-footer-padding" href="https://facebook.com/events/825035247660219/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-          <li><a class="social left-footer-padding" href="https://twitter.com/OpenStateEU" target="_blank"><i class="fa fa-twitter"></i></a></li>
-          <li><a class="social left-footer-padding" href="https://github.com/openstate" target="_blank"><i class="fa fa-github"></i></a></li>
-          <li><a class="social hashtag-font-size" href="https://twitter.com/search?f=tweets&q=#HdVS" target="_blank">#HdVS</a></li>
-        </ul>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5">
+            <img class="hdvs-logo float-left" src="<?= get_template_directory_uri() . '/dist/images/Logo_wit_kort-01.svg'; ?>" alt="Hack de Valse Start logo wit">
+          </div>
+          <div class="col-lg-7">
+            <ul class="list-inline left-footer-list-padding">
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <li><a class="social left-footer-padding" href="https://facebook.com/events/825035247660219/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+              <li><a class="social left-footer-padding" href="https://twitter.com/OpenStateEU" target="_blank"><i class="fa fa-twitter"></i></a></li>
+              <li><a class="social left-footer-padding" href="https://github.com/openstate" target="_blank"><i class="fa fa-github"></i></a></li>
+              <li><a class="social hashtag-font-size" href="https://twitter.com/search?f=tweets&q=#HdVS" target="_blank">#HdVS</a></li>
+            </ul>
+          </div>
+        </div>
       </div>
       <br>
     </div>
