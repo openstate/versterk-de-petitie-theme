@@ -1,5 +1,5 @@
-<div class="container archive">
-  <div class="row">
+<div class="container move-up-90">
+  <div class="row move-up archive">
     <div class="col-md-6">
       <h1 class="red-txt">Nieuws</h1>
       <img class="img-responsive display-inline lijntje" src="<?= get_template_directory_uri() . '/dist/images/Lijntje_rood-01.svg'; ?>" alt="rode lijn"/>

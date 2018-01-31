@@ -1,5 +1,4 @@
-.home .post-overview .category-news {
-  border: $border-white;
+.post-overview {
   padding: 0 15px 0 15px;
   margin: 10px;
 
@@ -21,18 +20,6 @@
 .archive article {
   position: relative;
   top: -35px;
-}
-
-.post-overview .category-news {
-  border: $border-light-blue;
-  padding: 0 15px 0 15px;
-  margin: 10px;
-}
-
-.post-overview .category-datablog {
-  border: $border;
-  padding: 0 15px 0 15px;
-  margin: 10px;
 }
 
 .post-type {
