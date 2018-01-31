@@ -1,25 +1,17 @@
-.move-up-90 {
-  position: relative;
-  top: -90px;
+.waar-wanneer {
+  padding-top: 60px;
+  font-size: 46px;
+  font-weight: bold;
+  line-height: 50px;
+  color: $light-grey;
 }
 
-.info-images {
+@media(max-width:992px) {
   .waar-wanneer {
-    position: relative;
-    top: 170px;
+    position: static;
+    top: 0px;
     font-size: 46px;
-    font-weight: bold;
     line-height: 50px;
-    color: $light-grey;
-  }
-
-  @media(max-width:992px) {
-    .waar-wanneer {
-      position: static;
-      top: 0px;
-      font-size: 46px;
-      line-height: 50px;
-    }
   }
 }
 

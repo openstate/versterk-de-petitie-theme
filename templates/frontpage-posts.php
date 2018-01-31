@@ -1,4 +1,4 @@
-<div class="container move-up-90">
+<div class="container">
   <div class="row move-up archive">
     <div class="col-md-6">
       <h1 class="red-txt">Nieuws</h1>

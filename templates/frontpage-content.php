@@ -1,16 +1,5 @@
-<div class="move-up-90">
+<div>
   <div class="container info-images">
-    <div class="row">
-      <div class="col-md-4 waar-wanneer">
-        3 maart 2018
-        <br>
-        Calvijn College
-      </div>
-      <div class="col-md-8">
-        <img src="<?= get_template_directory_uri() . '/dist/images/Illustratie-01.svg'; ?>" alt="illustratie: 1 2 3 boeken">
-      </div>
-    </div>
-  </div>
   <br>
   <div class="container info-text">
     <div class="row">

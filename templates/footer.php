@@ -1,4 +1,4 @@
-<footer class="content-info move-up-90-fp">
+<footer class="content-info">
   <div class="container footer move-up">
     <br>
     <div class="hidden-xs text-center">
