@@ -1,8 +1,43 @@
 body {
   font-family: $font-family-sans-serif;
+  color: $mid-grey;
   padding-top: 50px;
   padding-bottom: 20px;
   line-height: 18px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-family-sans-serif;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 50px;
+}
+
+h2 {
+  font-size: 35px;
+  line-height: 40px;
+}
+
+h3 {
+  font-size: 29px;
+  line-height: 32px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+.button, .btn {
+  font-family: $font-family-sans-serif;
+}
+
+p {
+  font-size: 25px;
+  line-height: 32px;
+  text-align: left;
 }
 
 @media(max-width:1200px) {
@@ -11,38 +46,8 @@ body {
   }
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: $font-family-serif;
-  font-weight: 400;
-  color: $black;
-}
-
-h1 {
-  font-size: 32px;
-  font-weight: 300;
-}
-
-h2 {
-  font-size: 24px;
-  font-weight: 300;
-}
-
-h3 {
-  font-size: 21px;
-}
-
-h4 {
-  font-size: 18px;
-}
-
-.button, .btn {
-  font-family: $font-family-serif;
-}
-
-p {
-  font-size: 16px;
-  line-height: 24px;
-  text-align: left;
+.underline {
+  text-decoration: underline;
 }
 
 .post p a,
@@ -54,39 +59,35 @@ p {
 }
 
 a:link {
-  color: $black;
+  color: $mid-grey;
 }
 
 a:visited {
-  color: $black;
+  color: $mid-grey;
 }
 
 a:hover {
-  color: $black;
+  color: $mid-grey;
 }
 
 a:active {
-  color: $black;
+  color: $mid-grey;
 }
 
 .display-inline {
   display: inline;
 }
 
+.float-left {
+  float: left;
+}
+
 .border-none {
   border: none;
 }
 
-.bg-white {
-  background-color: white;
-}
-
-.bg-light-blue {
-  background-color: $light-blue;
-}
-
-.bg-grey {
-  background-color: $grey;
+.red-txt {
+  color: $red;
 }
 
 .text-center {

@@ -1,34 +1,20 @@
 .header-full {
-  background-color: $light-blue;
   font-size: 18px;
   padding: 0 30px 0 30px;
-}
-
-.header-logo {
-  position: relative;
-  top: -50px;
-
-  a {
-    display: inline-block;
-    img {
-      width: 220px;
-      height: 220px;
-    }
-  }
 }
 
 .current-menu-item {
   > a {
     font-weight: bold;
   }
-
-  ::before {
-    content: '> ';
-  }
 }
 
 .in li {
   clear: both;
+}
+
+.collapse li {
+  float: left;
 }
 
 .brand-header {
@@ -38,18 +24,17 @@
 }
 
 .nav-primary {
-  background-color: $light-blue;
-  font-family: $font-family-serif;
-  font-size: 21px;
+  background-color: $white;
+  font-family: $font-family-sans-serif;
+  font-size: 22px;
 
   a:link, a:visited {
-    color: $black;
+    color: $mid-grey;
   }
 
   a:hover, a:active, a:focus {
-    background-color: $light-blue !important;
+    background-color: $light-grey !important;
     color: $black;
-    font-weight: bold;
   }
 }
 

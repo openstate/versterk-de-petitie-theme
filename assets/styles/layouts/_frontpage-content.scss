@@ -1,29 +1,44 @@
-.registration-banner {
-  border: $border;
+.info-images {
+  position: relative;
+  top: -90px;
+
+  .waar-wanneer {
+    position: relative;
+    top: 170px;
+    font-size: 46px;
+    font-weight: bold;
+    line-height: 50px;
+    color: $light-grey;
+  }
+
+  @media(max-width:992px) {
+    .waar-wanneer {
+      position: static;
+      top: 0px;
+      font-size: 46px;
+      line-height: 50px;
+    }
+  }
+}
+
+.info-text {
+  background-color: $red;
+  color: $white;
+  border-radius: 10px;
+  padding-top: 18px;
+  padding-bottom: 48px;
+}
+
+.btn-registration {
+  background-color: $dark-grey;
   font-size: 24px;
-  font-family: $font-family-serif;
-  line-height: 24px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  border: solid $mid-grey 1px;
+  border-radius: 10px;
+  padding: 5px 200px;
+  color: $white !important;
 
-  a:link, a:visited {
-    color: $black !important;
-  }
-
-  a:hover, a:active {
-    color: $black !important;
-  }
-
-  &.hidden-xs {
-    span {
-      float: right !important;
-    }
-  }
-
-  &.visible-xs-block {
-    input {
-      margin-top: 10px;
-    }
+  &:hover {
+    color: $light-grey !important;
   }
 }
 
@@ -65,38 +80,6 @@
   }
 }
 
-.icon-size {
-  font-size: 45px;
-}
-
-.frontpage-content-icons {
-  padding-bottom: 20px;
-}
-
-.frontpage-content-link {
-  font-size: 1.4em;
-  font-weight: bold;
-  text-decoration: underline;
-}
-
-.frontpage-content-link:link {
-  color: inherit;
-}
-
-.frontpage-content-link:visited {
-  color: inherit;
-}
-
-.frontpage-content-link:hover {
-  opacity: 0.5;
-  color: inherit;
-}
-
-.frontpage-content-link:active {
-  opacity: 0.7;
-  color: inherit;
-}
-
 .news-datablog-archive a {
-  font-family: $font-family-serif;
+  font-family: $font-family-sans-serif;
 }

@@ -11,6 +11,12 @@ $sidebar-sm-columns:    4;
 //== Colors
 //
 //## brand colors for use across the website.
+$red:               rgb(236, 0, 0) !default;
+$dark-grey:         rgb(80, 80, 80) !default;
+$mid-grey:          rgb(120, 120, 120) !default;
+$light-grey:        rgb(190, 190, 190) !default;
+$background-grey:   rgb(232, 234, 232) !default;
+
 $light-blue:        rgb(200, 255, 255) !default;
 $blue:              rgb(0, 0, 255) !default;
 
@@ -37,10 +43,10 @@ $brand-danger:          #d9534f !default;
 //
 //## Font, line-height, and color for body text, headings, and more.
 
-$font-family-sans-serif:  'Roboto', sans-serif !default;
-$font-family-serif:       'Roboto Mono', monospace !default;
+$font-family-sans-serif:  'Source Sans Pro', sans-serif !default;
+//$font-family-serif:       'Roboto Mono', monospace !default;
 //** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
-$font-family-monospace:   monospace !default;
+//$font-family-monospace:   monospace !default;
 $font-family-base:        $font-family-sans-serif !default;
 
 //$font-size-base:          14px !default;

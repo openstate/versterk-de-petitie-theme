@@ -1,22 +1,37 @@
-.left-footer-padding {
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
-.left-footer-list-padding {
-  padding-top: 25px;
+.footer {
+  background-color: $light-grey;
+  border-radius: 10px;
 }
 
 .hidden-xs .right-footer-image {
-  width: 24%;
+  color: #111111;
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 20%;
 }
 
 .visible-xs-block .right-footer-image {
   width: 80%;
 }
 
+.left-footer-list-padding {
+  padding-top: 25px;
+  text-align: right;
+}
+
+.left-footer-padding {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.social {
+  font-size: 30px;
+  color: $dark-grey !important;
+}
+
 .hashtag-font-size {
-  font-size: 1.4em;
+  font-size: 26px;
+  text-decoration: underline;
 }
 
 footer > .container {

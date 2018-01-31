@@ -8,29 +8,35 @@
   }
 }
 
+.lijntje {
+  position: relative;
+  left: -50px;
+}
+
+.move-up {
+  position: relative;
+  top: -35px;
+}
+
+.archive article {
+  position: relative;
+  top: -35px;
+}
+
 .post-overview .category-news {
   border: $border-light-blue;
   padding: 0 15px 0 15px;
   margin: 10px;
-
-  h3, h4 {
-    color: $black;
-  }
 }
 
 .post-overview .category-datablog {
   border: $border;
   padding: 0 15px 0 15px;
   margin: 10px;
-
-  h3, h4 {
-    color: $black;
-  }
 }
 
 .post-type {
   display: inline-block;
-  color: $black;
   padding: 0 10px;
   margin-right: 10px;
 }
@@ -61,12 +67,8 @@
   font-weight: bold;
 }
 
-.moretag {
-  color: $black !important;
-}
 
 .news-datablog-archive {
   a:link, a:visited, a:hover, a:active {
-    color: $black;
   }
 }
