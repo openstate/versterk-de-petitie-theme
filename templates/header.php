@@ -11,6 +11,12 @@
           <br>
           Calvijn College
         </div>
+        <br class="home-spacing visible-xs-inline visible-sm-inline">
+        <br class="home-spacing visible-xs-inline visible-sm-inline">
+        <br class="home-spacing visible-xs-inline visible-sm-inline">
+        <br class="home-spacing visible-xs-inline visible-sm-inline">
+        <br class="home-spacing visible-xs-inline visible-sm-inline">
+        <br class="home-spacing visible-xs-inline visible-sm-inline">
       </div>
       <nav class="hidden-lg nav-primary navbar-default navbar-fixed-top">
         <div class="navbar-header">

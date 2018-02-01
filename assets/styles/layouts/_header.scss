@@ -1,11 +1,42 @@
-.header-full {
-  font-size: 18px;
-  padding: 0 30px 40px 30px;
-
+.home .header-full {
   background-image: url("/wp-content/themes/hack-de-valse-start-theme/dist/images/Illustratie-01.svg");
   background-repeat: no-repeat;
   background-position: bottom right;
   background-size: 65%;
+}
+
+.header-full {
+  padding-bottom: 0;
+}
+
+.home .header-full {
+  font-size: 18px;
+  padding: 0 30px 40px 30px;
+}
+
+.home-spacing {
+  display: none !important;
+}
+
+.home .home-spacing {
+  display: inline !important;
+}
+
+.waar-wanneer {
+  display: none;
+}
+
+.home .waar-wanneer {
+  display: block;
+  padding-top: 60px;
+  @media(max-width: 992px) {
+    padding-top: 0px;
+  }
+
+  font-size: 46px;
+  font-weight: bold;
+  line-height: 50px;
+  color: $light-grey;
 }
 
 .current-menu-item {

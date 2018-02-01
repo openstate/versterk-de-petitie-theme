@@ -7,19 +7,24 @@
   }
 }
 
-.lijntje {
-  position: relative;
-  left: -50px;
+.post-header {
+  padding-left: 50px;
 }
 
-.move-up {
-  position: relative;
-  top: -35px;
+.lijntje-div {
+  &.lijntje-rood {
+    background-image: url("/wp-content/themes/hack-de-valse-start-theme/dist/images/Lijntje_rood-01.svg");
+  }
+  &.lijntje-grijs {
+    background-image: url("/wp-content/themes/hack-de-valse-start-theme/dist/images/Lijntje_grijs-01.svg");
+  }
+  background-repeat: no-repeat;
+  background-position: top center;
 }
 
 .archive article {
-  position: relative;
-  top: -35px;
+  padding-top: 15px;
+  padding-left: 52px;
 }
 
 .post-type {
@@ -55,6 +60,7 @@
 }
 
 .news-datablog-archive {
+  padding-right: 10px;
   a:link, a:visited, a:hover, a:active {
   }
 }
