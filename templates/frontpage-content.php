@@ -15,7 +15,7 @@
         <br>
         <br>
         <br>
-        <img class="img-responsive center-block" src="<?= get_post_permalink(52) . '/dist/images/eindexamen.jpg' ?>" alt="Foto van een eindexamen voortgezet onderwijs in 1988">
+        <img class="img-responsive center-block" src="<?= get_template_directory_uri() . '/dist/images/eindexamen.jpg' ?>" alt="Foto van een eindexamen voortgezet onderwijs in 1988">
       </div>
     </div>
   </div>

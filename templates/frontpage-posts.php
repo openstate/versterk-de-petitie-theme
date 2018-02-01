@@ -29,7 +29,7 @@
         ?>
       </div>
     </div>
-    <p class="news-datablog-archive underline" style="text-align:right"><a href=<?= get_home_url(null, 'nieuws-datablogs/'); ?>>Nieuws &amp; Datablogs archief  ></a></p>
+    <p class="news-datablog-archive underline" style="text-align:right"><a href=<?= get_post_permalink(52); ?>>Nieuws &amp; Datablogs archief  ></a></p>
     <br>
   </div>
   <br>
