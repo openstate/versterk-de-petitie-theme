@@ -1,9 +1,8 @@
-[Accountability Hack](http://accountabilityhack.nl/) WordPress theme based on [Sage](https://roots.io/sage/).
+[Hack de Valse Start](https://hackdevalsestart.nl/) WordPress theme based on [Sage](https://roots.io/sage/).
 
-Basic installation instructions (check out Sage's [Theme setup](https://github.com/openstate/accountabilityhack-theme#theme-setup) for instructions on installing `gulp` and `bower`):
- * Run `git pull` to fetch this repository into your WordPress' `themes` folder
+Basic installation instructions (check out Sage's [Theme setup](https://github.com/openstate/hack-de-valse-start-theme#theme-setup) for instructions on installing `gulp` and `bower`):
+ * Run `git clone` to fetch this repository into your WordPress' `themes` folder
  * Run `bower install --allow-root` to install the required front-end packages
- * Edit `tcampeu-theme/bower_components/linea-io/linea.css` and add `../` in front of all `fonts/icomoon.eot` urls
  * Run `gulp` to build
 
 For more info on Sage, see below:
