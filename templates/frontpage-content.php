@@ -1,5 +1,4 @@
 <div>
-  <div class="container info-images">
   <br>
   <div class="container info-text">
     <div class="row">

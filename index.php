@@ -3,8 +3,6 @@
 <?php endif; ?>
 
 <br class="hidden-xs">
-<br class="hidden-xs">
-<br class="hidden-xs">
 
 <?php if (!have_posts()) : ?>
   <div class="alert alert-warning">
