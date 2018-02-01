@@ -4,7 +4,7 @@
       <?php while (have_posts()) : the_post(); ?>
         <article <?php post_class(); ?>>
           <header>
-            <h3 class="entry-title"><?php the_title(); ?></h3>
+            <h1 class="entry-title"><?php the_title(); ?></h1>
             <?php
               if (in_category('news')) {
                 echo '<span class="post-type"><b>[Nieuws]</b></span>';
