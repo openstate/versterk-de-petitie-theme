@@ -1,12 +1,18 @@
 .home .header-full {
-  background-image: url("/wp-content/themes/hack-de-valse-start-theme/dist/images/Illustratie-01.svg");
+  background-color: $white;
   background-repeat: no-repeat;
   background-position: bottom right;
   background-size: 65%;
 }
 
+.header-logo {
+    position: relative;
+    top: -70px;
+}
+
 .header-full {
   padding-bottom: 0;
+  padding-top: 0;
 }
 
 .home .header-full {
@@ -40,6 +46,16 @@
   color: $light-grey;
 }
 
+.nav-bar > li {
+    border:1px solid #333;
+    display:block;
+    float: right;
+    line-height:38px;
+    margin:0;
+    padding:0;
+    position:relative;
+ }
+
 .current-menu-item {
   > a {
     font-weight: bold;
@@ -48,10 +64,6 @@
 
 .in li {
   clear: both;
-}
-
-.collapse li {
-  float: left;
 }
 
 .brand-header {
@@ -66,7 +78,7 @@
   font-size: 22px;
 
   a:link, a:visited {
-    color: $mid-grey;
+    color: $red;
   }
 
   a:hover, a:active, a:focus {

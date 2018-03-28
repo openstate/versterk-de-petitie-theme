@@ -11,17 +11,6 @@
   padding-left: 50px;
 }
 
-.lijntje-div {
-  &.lijntje-rood {
-    background-image: url("/wp-content/themes/hack-de-valse-start-theme/dist/images/Lijntje_rood-01.svg");
-  }
-  &.lijntje-grijs {
-    background-image: url("/wp-content/themes/hack-de-valse-start-theme/dist/images/Lijntje_grijs-01.svg");
-  }
-  background-repeat: no-repeat;
-  background-position: top center;
-}
-
 .archive article {
   padding-top: 15px;
   padding-left: 52px;

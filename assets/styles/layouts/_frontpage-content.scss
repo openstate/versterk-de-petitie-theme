@@ -8,17 +8,45 @@
 }
 
 .info-text {
-  background-color: $red;
+  background-color: $yellow;
   color: $white;
-  border-radius: 10px;
+  border-radius: 0px;
   padding-top: 18px;
   padding-bottom: 48px;
+  padding-left: 182px;
+  padding-right: 406px;
+}
+
+.banner2 {
+    background-image: url(/wp-content/themes/digging-for-data-theme/dist/images/diggingfordata.png);
+    height: 243px;
+}
+
+.centered {
+    color: $white;
+    border-radius: 0px;
+    padding-top: 30px;
+    padding-bottom: 48px;
+    padding-left: 182px;
+    font-size: 46px;
+    line-height: 50px;
+    font-weight: bold;
+}
+
+.centered2 {
+    color: $white;
+    border-radius: 0px;
+    padding-top: 5px;
+    padding-bottom: 60px;
+    padding-left: 182px;
+    font-size: 30px;
+    line-height: 50px;
 }
 
 .btn-registration {
   background-color: $dark-grey;
   font-size: 24px;
-  border: solid $mid-grey 1px;
+  border: solid $red 1px;
   border-radius: 10px;
   padding: 5px 30%;
   color: $white !important;
@@ -54,4 +82,21 @@
 
 .news-datablog-archive a {
   font-family: $font-family-sans-serif;
+}
+
+.nieuwsberichten {
+  background-color: $red;
+  color: $white;
+}
+
+.datablogs {
+  background-color: $greygreen;
+  color: $white;
+}
+
+.nieuwsberichtenplaatje {
+    padding-top: 18px;
+    padding-bottom: 25px;
+    padding-right: 67px;
+
 }
