@@ -4,8 +4,8 @@ env.use_ssh_config = True
 env.hosts = ["Oxygen"]
 
 # Container used to compile the assets
-GIT_REPO_NAME = 'hack-de-valse-start-theme'
-NODE_CONTAINER = 'c-nodejs-hack-de-valse-start'
+GIT_REPO_NAME = 'digging-for-data-theme'
+NODE_CONTAINER = 'c-nodejs-digging-for-data'
 
 def deploy():
     with cd('/home/projects/wordpress/www/wp-mu/wp-content/themes/%s' % (GIT_REPO_NAME)):
