@@ -1,3 +1,29 @@
+.app-challenge .wrap {
+    background-color: $yellow;
+    font-family: $font-family-sans-serif;
+    font-color: $white;
+    border-bottom: 30px solid $white;
+}
+
+.over .wrap {
+    background-color: $greygreen;
+    font-family: $font-family-sans-serif;
+    font-color: $white;
+    border-bottom: 30px solid $white;
+}
+
+.page-template.nieuwsberichten .archive {
+    background-color: $red;
+}
+
+.page-template.datablogs .archive {
+    background-color: $greygreen;
+}
+
+.archive {
+    padding: 0 15px;
+}
+
 a.anchor-offset {
     display: block;
     position: relative;

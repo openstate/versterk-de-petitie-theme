@@ -10,8 +10,9 @@
   <hr style="background-color: #cc9800; height:25px;">
   <div class="info-text">
     <div class="row">
-      <div class="col-lg-9">
-        <h1>Hack de Valse Start</h1>
+      <div class="col-xs-12 col-md-3">
+      </div>
+      <div class="col-xs-12 col-md-6">
         <p class="frontpage-content-text">
           Welkom bij Hack de Valse Start. De hackathon die zich richt op kansen(on)gelijkheid in het onderwijs in Amsterdam. Gelijke kansen in het Nederlandse onderwijs staan onder druk. Met gebruik van open data gaan we op zoek naar nieuwe manieren om kansenongelijkheid te signaleren en gelijke kansen te verbeteren.
         </p>
@@ -19,12 +20,9 @@
           <span><a href="https://www.eventbrite.nl/e/tickets-hack-de-valse-start-42635554090" class="btn btn-registration" role="button">Meld je aan</a></span>
         </div>
       </div>
-      <div class="col-lg-3">
-        <br>
-        <br>
-        <br>
-        <img class="pull-right img-responsive block" src="<?= get_template_directory_uri() . '/dist/images/eindexamen.jpg' ?>" alt="Foto van een eindexamen voortgezet onderwijs in 1988">
-      </div>
+     <div class="col-xs-12 col-md-3 nieuwsberichtenplaatje"> 
+      <img class="img-responsive block" src="<?= get_template_directory_uri() . '/dist/images/welkomplaatje.jpg' ?>" alt="Gemstone with a carving of two horses by a trough, Roman period. Foto van de Provincie Zuid-Holland">
+     </div>
     </div>
   </div>
 </div>

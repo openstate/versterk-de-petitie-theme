@@ -10,11 +10,8 @@
 .info-text {
   background-color: $yellow;
   color: $white;
-  border-radius: 0px;
-  padding-top: 18px;
-  padding-bottom: 48px;
-  padding-left: 182px;
-  padding-right: 406px;
+  padding-top: 25px;
+  padding-left: 18px;
 }
 
 .banner2 {
@@ -84,19 +81,24 @@
   font-family: $font-family-sans-serif;
 }
 
-.nieuwsberichten {
+.home .nieuwsberichten {
   background-color: $red;
   color: $white;
 }
 
-.datablogs {
+.home .datablogs {
   background-color: $greygreen;
   color: $white;
 }
 
 .nieuwsberichtenplaatje {
-    padding-top: 18px;
+    padding-top: 100px;
     padding-bottom: 25px;
     padding-right: 67px;
+}
 
+.introductiewelkomplaatje {
+    padding-top: 100px;
+    padding-bottom: 25px;
+    padding-right: 67px;
 }
