@@ -1,6 +1,6 @@
 body {
   font-family: $font-family-sans-serif;
-  background-color: $background-grey;
+  background-color: $white;
   padding-top: 0px;
   padding-bottom: 0px;
   line-height: 18px;
@@ -9,12 +9,13 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: $font-family-sans-serif;
   font-weight: bold;
+  color: $dark-grey;
 }
 
 h1 {
   font-size: 40px;
   line-height: 50px;
-  color: $white;
+  color: $logoblue;
 }
 
 h2 {
@@ -64,7 +65,7 @@ p {
 }
 
 a:link {
-  color: $red;
+  color: $logoorange;
 }
 
 a:visited {
@@ -125,8 +126,6 @@ a:active {
     margin-left: auto;
     padding-left: 0px;
     padding-right: 0px;
-    background-color: #fff;
-    box-shadow: 0 0 15px $black;
 }
 
 .tabbed-list {

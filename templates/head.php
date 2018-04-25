@@ -11,7 +11,7 @@
   <meta property="og:image:width" content="1500" />
   <meta property="og:image:height" content="500" />
   <?php wp_head(); ?>
-  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet"> 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-32274817-13"></script>
   <script>

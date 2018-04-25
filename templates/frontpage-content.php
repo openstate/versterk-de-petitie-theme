@@ -2,8 +2,6 @@
   <div class="banner2">
     <div class="row">
       <div class="diggingfordata col-lg-12">
-        <div class="centered">DIGGING FOR DATA</div>
-        <div class="centered2">KICK-OFF EVENT: 20 APRIL</div>
       </div>
     </div>
   </div>
