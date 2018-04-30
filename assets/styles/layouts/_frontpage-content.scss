@@ -8,8 +8,6 @@
 }
 
 .info-text {
-  background-color: $white;
-  color: $white;
   padding-top: 25px;
   padding-left: 18px;
 }
@@ -38,10 +36,10 @@
 .btn-registration {
   background-color: $dark-grey;
   font-size: 24px;
-  border: solid $red 1px;
+  border: solid $dark-grey 1px;
   border-radius: 10px;
   padding: 5px 30%;
-  color: $dark-grey !important;
+  color: $white !important;
 
   &:hover {
     color: $light-grey !important;
@@ -74,26 +72,4 @@
 
 .news-datablog-archive a {
   font-family: $font-family-sans-serif;
-}
-
-.home .nieuwsberichten {
-  background-color: $white;
-  color: $dark-grey;
-}
-
-.home .datablogs {
-  background-color: $white;
-  color: $dark-grey;
-}
-
-.nieuwsberichtenplaatje {
-    padding-top: 100px;
-    padding-bottom: 25px;
-    padding-right: 67px;
-}
-
-.introductiewelkomplaatje {
-    padding-top: 100px;
-    padding-bottom: 25px;
-    padding-right: 67px;
 }

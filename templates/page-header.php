@@ -2,8 +2,8 @@
 
 <div class="page-header border-none">
   <div class="row">
-    <div class="col-md-8 col-md-offset-2">
-      <h1><?= Titles\title(); ?></h1>
+    <div class="col-xs-12">
+      <div class="balk bg-geel"><?= Titles\title(); ?></div>
     </div>
   </div>
 </div>

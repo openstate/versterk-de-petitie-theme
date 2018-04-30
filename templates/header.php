@@ -3,9 +3,8 @@
     <div class="row">
       <div class="header-logo col-lg-9">
         <a href="<?= esc_url(home_url('/')); ?>">
-          <img class="img-responsive display-inline VOORBEELDVERSTERKDEPETITIE6" src="<?= get_template_directory_uri() . '/dist/images/VOORBEELDVERSTERKDEPETITIE6.png'; ?>" alt="Versterk de Petitie logo"/> 
+          <img class="img-responsive display-inline" src="<?= get_template_directory_uri() . '/dist/images/logo-vds.svg'; ?>" alt="Versterk de Petitie logo"/>
         </a>
-        <div class=".titellogo">VERSTERK DE PETITIE</div>
       </div>
       <nav class="hidden-lg nav-primary navbar-default navbar-fixed-top">
         <div class="navbar-header">
