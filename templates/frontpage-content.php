@@ -25,7 +25,7 @@
         <b>Tijd</b>: 9:30-17.00
       </p>
       <div class="align-center">
-        <span><a href="https://www.eventbrite.nl/" class="btn btn-registration" role="button"><b>Meld je aan</b></a></span>
+        <span><a href="https://www.eventbrite.nl/e/tickets-versterk-de-petitie-45651197962" class="btn btn-registration" role="button"><b>Meld je aan</b></a></span>
         <br>
         <br>
       </div>
