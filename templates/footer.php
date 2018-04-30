@@ -5,9 +5,11 @@
         <br>
         <div class="hidden-xs text-center">
           <div>
-            <a href="http://www.duidt.nl/" style="" target="_blank"><img class="right-footer-image" src="<?= get_template_directory_uri() . '/dist/images/logo-duidt-white.svg'; ?>" alt="DUiDT logo"></a>
-            <a href="https://vu.nl/" style="" target="_blank"><img class="right-footer-image" src="<?= get_template_directory_uri() . '/dist/images/logo-vu-white.svg'; ?>" alt="VU logo"></a>
-            <a href="https://openstate.eu/" style="" target="_blank"><img class="right-footer-image" src="<?= get_template_directory_uri() . '/dist/images/logo-open-state-white.svg'; ?>" alt="Open State Foundation logo"></a>
+            <a href="http://www.duidt.nl/" target="_blank"><img class="right-footer-image" src="<?= get_template_directory_uri() . '/dist/images/logo-duidt-white.svg'; ?>" alt="DUiDT logo"></a>
+            <a href="https://www.utwente.nl/" target="_blank"><img class="right-footer-image" src="<?= get_template_directory_uri() . '/dist/images/logo-ut.png'; ?>" alt="Universiteit Twente logo"></a>
+            <a href="https://vu.nl/" target="_blank"><img class="right-footer-image" src="<?= get_template_directory_uri() . '/dist/images/logo-vu-white.svg'; ?>" alt="VU logo"></a>
+            <a href="https://petities.nl/" target="_blank"><img class="right-footer-image" src="<?= get_template_directory_uri() . '/dist/images/logo-petities-white.png'; ?>" alt="Petities.nl logo"></a>
+            <a href="https://openstate.eu/" target="_blank"><img class="right-footer-image" src="<?= get_template_directory_uri() . '/dist/images/logo-open-state-white.svg'; ?>" alt="Open State Foundation logo"></a>
           </div>
           <br>
           <div class="row">
@@ -27,9 +29,11 @@
         </div>
         <div class="visible-xs-block text-center">
           <div>
-            <a href="http://www.duidt.nl/" style="" target="_blank"><img class="right-footer-image" src="<?= get_template_directory_uri() . '/dist/images/logo-duidt-white.svg'; ?>" alt="DUiDT logo"></a>
-            <a href="https://vu.nl/" style="" target="_blank"><img class="right-footer-image" src="<?= get_template_directory_uri() . '/dist/images/logo-vu-white.svg'; ?>" alt="VU logo"></a>
-            <a href="https://openstate.eu/" style="" target="_blank"><img class="right-footer-image" src="<?= get_template_directory_uri() . '/dist/images/logo-open-state-white.svg'; ?>" alt="Open State Foundation logo"></a>
+            <a href="http://www.duidt.nl/" target="_blank"><img class="right-footer-image" src="<?= get_template_directory_uri() . '/dist/images/logo-duidt-white.svg'; ?>" alt="DUiDT logo"></a>
+            <a href="https://www.utwente.nl/" target="_blank"><img class="right-footer-image" src="<?= get_template_directory_uri() . '/dist/images/logo-ut.png'; ?>" alt="Universiteit Twente logo"></a>
+            <a href="https://vu.nl/" target="_blank"><img class="right-footer-image" src="<?= get_template_directory_uri() . '/dist/images/logo-vu-white.svg'; ?>" alt="VU logo"></a>
+            <a href="https://petities.nl/" target="_blank"><img class="right-footer-image" src="<?= get_template_directory_uri() . '/dist/images/logo-petities-white.png'; ?>" alt="Petities.nl logo"></a>
+            <a href="https://openstate.eu/" target="_blank"><img class="right-footer-image" src="<?= get_template_directory_uri() . '/dist/images/logo-open-state-white.svg'; ?>" alt="Open State Foundation logo"></a>
           </div>
           <br>
           <ul class="list-inline left-footer-list-padding">
