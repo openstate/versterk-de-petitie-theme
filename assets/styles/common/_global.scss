@@ -44,7 +44,7 @@ p {
 
 @media(max-width:1200px) {
   body {
-    padding-top: 100px;
+    padding-top: 50px;
   }
 }
 
@@ -138,13 +138,6 @@ a:active {
     left: 0;
     width: 100%;
     height: 100%;
-}
-
-.container {
-    margin-right: auto;
-    margin-left: auto;
-    padding-left: 0px;
-    padding-right: 0px;
 }
 
 .tabbed-list {
