@@ -2,7 +2,7 @@
   <div class="row">
     <div class="col-xs-12 col-md-6">
       <div class="balk bg-groen">
-        Nieuws
+        <center>Nieuws</center>
       </div>
       <?php
         $args = array( 'posts_per_page' => 2, 'category_name' => 'News' );
@@ -16,7 +16,7 @@
     </div>
     <div class="col-xs-12 col-md-6">
       <div class="balk bg-rood">
-        Datablogs
+        <center>Datablogs</center>
       </div>
       <?php
         $args = array( 'posts_per_page' => 2, 'category_name' => 'Datablog' );
