@@ -48,11 +48,12 @@ $brand-danger:          #d9534f !default;
 //
 //## Font, line-height, and color for body text, headings, and more.
 
-$font-family-sans-serif:  	'Lora', sans-serif !default;
+$font-family-sans-serif:  	'Roboto', sans-serif !default;
 //$font-family-serif:       'Black Han Sans', sans-serif !default;
+
 //** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
 //$font-family-monospace:   monospace !default;
-$font-family-base:        $font-family-sans-serif !default;
+$font-family-base:          $font-family-sans-serif !default;
 
 //$font-size-base:          12px !default;
 //$font-size-large:         ceil(($font-size-base * 1.25)) !default; // ~18px
