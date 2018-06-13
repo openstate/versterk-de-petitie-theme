@@ -22,7 +22,7 @@
       </div>
        <p class="frontpage-content-text">
         <br>
-        <b>Wanneer</b>: vrijdag 5 oktober 2018
+        <b>Wanneer</b>: vrijdag 12 oktober 2018
         <br>
         <b>Waar</b>: DesignLab (Universiteit Twente), Hengelosestraat 500, Enschede
         <br>
