@@ -26,7 +26,7 @@
         <br>
         <b>Waar</b>: DesignLab (Universiteit Twente), Hengelosestraat 500, Enschede
         <br>
-        <b>Tijd</b>: 9:30-17.00
+        <b>Tijd</b>: 9:00-19:30
       </p>   
   </div>
 </div>
