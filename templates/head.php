@@ -3,7 +3,7 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="Open State Foundation">
-  <meta property="og:title" content="Versterk de Petitie - 5 oktober 2018 @ DesignLab (Universiteit Twente)" />
+  <meta property="og:title" content="Versterk de Petitie - 12 oktober 2018 @ DesignLab (Universiteit Twente)" />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="https://versterkdepetitie.nl/wp-content/themes/versterk-de-petitie-theme/dist/images/logo-vds-og.png" />
   <meta property="og:image:secure_url" content="https://versterkdepetitie.nl/wp-content/themes/versterk-de-petitie-theme/dist/images/logo-vds-og.png" />
