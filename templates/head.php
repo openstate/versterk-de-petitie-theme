@@ -19,6 +19,5 @@
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', 'UA-32274817-16', { 'anonymize_ip': true });
-    gtag('config', 'UA-32274817-16');
   </script>
 </head>
